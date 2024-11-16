@@ -21,9 +21,10 @@ while(True):
         user_guess=int(input("Make a guess: "))
             
         if user_guess==generate_number:
-            print("Correct!You got it")
+            print("Correct!!You got it")
             break
         else:
-            print("Incorrect!Try again.")
+            print("Incorrect!Try again")
             continue
-print("You got it in",guesses,"guesses")        
+print("You got it in",guesses,"guesses.")  
+      
