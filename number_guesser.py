@@ -15,8 +15,9 @@ generate_number=random.randint(0,top_of_range)
 # random.randrange(11) generate random number from 0 to 10
 # random.randrange(0,11) 0 included but not 11..
 #To include 11 we have to use random.randint(0,11)
-
+guesses=0
 while(True):
+        guesses+=1
         user_guess=int(input("Make a guess: "))
             
         if user_guess==generate_number:
@@ -25,3 +26,4 @@ while(True):
         else:
             print("Incorrect!")
             continue
+print("You got it in",guesses,"guesses")        
