@@ -24,7 +24,7 @@ while(True):
             print("Correct!!You got it")
             break
         else:
-            print("Incorrect!Try again")
+            print("Incorrect!Try again...")
             continue
 print("You got it in",guesses,"guesses.")  
       
